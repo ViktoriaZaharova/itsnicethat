@@ -15030,7 +15030,7 @@ hr {
     z-index: 1;
 }
 
-.my-block .pb6 {
+.my-block-wrapper {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -15049,8 +15049,25 @@ hr {
     color: #fff;
 }
 
-.my-block h3 span {
-    font-size: 20px;
+
+.title-my {
+    font-size: 36px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
     line-height: normal;
+    font-variant: normal;
 }
 
+.subtitle-my {
+    font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+    margin-top: 40px;
+    display: block;
+}
+
+.btn-category-icon.rotate .icon-down {
+    transform: rotate(180deg);
+}
