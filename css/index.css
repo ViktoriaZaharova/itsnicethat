@@ -15048,7 +15048,7 @@ hr {
     position: absolute;
     left: 0;
     bottom: 0;
-    padding: 20px 30px;
+    padding: 20px 30px 40px;
     width: 100%;
     display: flex;
     align-items: flex-start;
@@ -15063,6 +15063,9 @@ hr {
     color: #fff;
 }
 
+.pb6-right {
+    text-align: right;
+}
 
 .title-my {
     font-size: 36px;
@@ -15131,14 +15134,10 @@ html, body {
 }
 
 .my-block {
-    padding: 0 10px;
+    padding: 20px 20px 0;
 }
 
 @media (max-width: 1199px) {
-    .my-block {
-        padding: 0 20px;
-    }
-
     .module-cluster-home {
         height: auto;
     }
@@ -15149,9 +15148,6 @@ html, body {
 }
 
 @media (max-width: 767px) {
-    .my-block {
-        padding: 0;
-    }
     .title-my {
         font-size: 30px;
     }
@@ -15160,16 +15156,20 @@ html, body {
         font-size: 20px;
     }
 
-    .my-block-wrapper {
-        padding: 10px;
-    }
-
     .cover-logo a {
         max-width: 220px;
     }
 
     .pb6-left, .pb6-right {
         max-width: 48%;
+    }
+
+    .my-block-wrapper {
+        padding: 20px 40px 40px;
+    }
+
+    .listing-item-image img {
+        min-height: 500px;
     }
 }
 
@@ -15184,5 +15184,9 @@ html, body {
 
     .title-my {
         font-size: 22px;
+    }
+
+    .pb6-right {
+        text-align: left;
     }
 }
